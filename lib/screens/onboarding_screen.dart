@@ -16,7 +16,7 @@ class OnboardingScreen extends StatelessWidget {
             Image.asset('assets/salmon_eggs.png', height: 150),
             const SizedBox(height: 30),
             const Text(
-              'THE TASTE OF JAPANESE FOOD',
+              'NIHON BITES',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 22,

@@ -19,56 +19,80 @@ class _HomeScreenState extends State<HomeScreen> {
     Food(
       name: "Tuna Sushi",
       image: "assets/tuna_sushi.png",
-      description: "Delicious tuna sushi",
+      description: "A popular type of nigiri sushi featuring slices of fresh,"
+                   " raw tuna placed atop seasoned rice."
+                   " It’s known for its smooth texture and rich,"
+                   " clean flavor. Tuna is a sushi staple and comes in different grades,"
+                   " including lean (akami) and fatty (toro).",
       price: 20.0,
       rating: 4.5,
     ),
     Food(
       name: "Sushi Promo",
       image: "assets/sushi_promo.png",
-      description: "Delicious sushi",
+      description: "This generally refers to a special promotional offer or combo "
+                   "that includes a selection of sushi items—often a mix of nigiri,"
+                   " maki (rolled sushi), and possibly sashimi—offered at a discounted price "
+                   "or as a featured menu item.",
       price: 21.0,
       rating: 4.8,
     ),
     Food(
       name: "Salmon Sushi",
       image: "assets/salmon_sushi.png",
-      description: "Delicious salmon sushi",
+      description: "Another favorite nigiri sushi made"
+                   " with a slice of raw salmon laid over a bed of vinegared rice."
+                   " Salmon sushi is prized for its buttery texture and mild,"
+                   " slightly sweet flavor",
       price: 21.0,
       rating: 4.8,
     ),
     Food(
       name: "Tempura",
       image: "assets/tempura.png",
-      description: "Japanese fried dish",
+      description: "A Japanese dish where seafood, vegetables, "
+          "or even mushrooms are lightly battered and deep-fried to a crisp"
+          " golden finish. Common tempura items include shrimp, sweet potato, and eggplant. "
+          "It's often served with dipping sauce and grated daikon.",
       price: 7.99,
       rating: 4.6,
     ),
     Food(
       name: "Ramen",
       image: "assets/ramen.png",
-      description: "Japanese noodle soup",
+      description: " A beloved noodle soup dish with Chinese-style wheat noodles in a savory broth,"
+          " often flavored with soy sauce, miso, or pork bone (tonkotsu)."
+          " Toppings include sliced pork, green onions, soft-boiled eggs,"
+          " and nori (seaweed).",
       price: 12.99,
       rating: 4.8,
     ),
     Food(
       name: "Miso Soup",
       image: "assets/mis_soup.png",
-      description: "Traditional Japanese soup",
+      description: " A traditional Japanese soup made with dashi (broth) and miso paste,"
+          " which is fermented soybean paste. It usually contains tofu, seaweed, and green onions. "
+          "It’s commonly served as a starter or side in Japanese meals.",
       price: 5.99,
       rating: 4.5,
     ),
     Food(
       name: "Nabe",
       image: "assets/nab.png",
-      description: "Traditional Japanese hot pot with fresh ingredients",
+      description: " A communal hot pot dish where ingredients like sliced meat, "
+          "vegetables, tofu, and mushrooms are simmered in a flavorful broth at the table. "
+          "There are various regional styles, "
+          "such as sukiyaki and shabu-shabu.",
       price: 21.00,
       rating: 4.8,
     ),
     Food(
       name: "Onigiri",
       image: "assets/oni.png",
-      description: "Japanese rice balls",
+      description: " A convenient and portable snack made from rice "
+          "formed into a triangular or oval shape and often wrapped in nori "
+          "(seaweed). It may be filled with ingredients like pickled plum (umeboshi),"
+          " salted salmon, or tuna mayo",
       price: 3.99,
       rating: 4.7,
     ),
@@ -83,14 +107,18 @@ class _HomeScreenState extends State<HomeScreen> {
     Food(
       name: "Salmon Eggs",
       image: "assets/salmon_eggs.png",
-      description: "Popular salmon eggs",
+      description: "These are bright orange, large salmon roe often used in sushi."
+          " They burst with a salty, umami-rich flavor and are commonly served atop rice or as a garnish. "
+          "Ikura is appreciated for its texture and luxurious taste.",
       price: 15.0,
       rating: 4.9,
     ),
     Food(
       name: "Dango",
       image: "assets/dang.png",
-      description: "A Japanese sweet dumpling made from rice flour and served on a skewer",
+      description: " A chewy, sweet rice dumpling typically served on skewers. "
+          "Dango comes in various flavors and coatings, such as mitarashi (sweet soy glaze), "
+          "anko (red bean paste), or sesame. It's a popular snack during festivals.",
       price: 21.0,
       rating: 4.8,
     ),
@@ -114,7 +142,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Tokyo"),
+        title: const Text("MENU"),
         backgroundColor: const Color(0xffA94438), // Red app bar color
         foregroundColor: Colors.white, // White text and icons
         actions: [
